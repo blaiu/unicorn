@@ -2,22 +2,17 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-  	<parent>
+	<parent>
     	<groupId>stray.immortal</groupId>
     	<artifactId>unicorn</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   	</parent>
-  	<artifactId>unicorn-boot</artifactId>
-<!--   	<name>unicorn-boot</name> -->
-<!--   	<url>http://maven.apache.org</url> -->
+  	<artifactId>unicorn-core</artifactId>
+  	<name>unicorn-core</name>
+  	<url>http://maven.apache.org</url>
   	<properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	</properties>
-  	
-  	<build>
-        <finalName>${project.parent.name}-${project.version}</finalName>
-    </build>
-  	
   	<dependencies>
     	<dependency>
       		<groupId>junit</groupId>

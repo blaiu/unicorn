@@ -11,7 +11,10 @@
 	<description>unicorn</description>
 	<modules>
     	<module>unicorn-boot</module>
-	</modules>
+    <module>unicorn-core</module>
+    <module>unicorn-controller</module>
+    <module>unicorn-wsgi</module>
+  </modules>
   
 	<dependencies>
         <dependency>
